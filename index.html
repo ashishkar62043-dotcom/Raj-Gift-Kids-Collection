@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Gift &amp; Kids Collection | Kids Toys, Baby Care &amp; Personalized Gifts</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Fredoka, Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        display: ['Fredoka', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        tealBrand: {
+                            950: '#072E2C',
+                            900: '#0D4F4B',
+                            800: '#136661',
+                            700: '#1A7F79',
+                        },
+                        marigold: {
+                            300: '#FCD34D',
+                            400: '#FBBF24',
+                            500: '#F59E0B',
+                            600: '#D97706',
+                        },
+                        tangerine: {
+                            400: '#FB923C',
+                            500: '#F97316',
+                            600: '#EA580C',
+                        },
+                        ivoryCream: {
+                            50: '#FFFDF9',
+                            100: '#FDF7EC',
+                            200: '#F8ECD7',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @keyframes gentleBounce {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-7px); }
+        }
+        .float-badge-1 {
+            animation: gentleBounce 4s ease-in-out infinite;
+        }
+        .float-badge-2 {
+            animation: gentleBounce 4.8s ease-in-out 1.4s infinite;
+        }
+    </style>
+</head>
+<body class="bg-ivoryCream-50 text-slate-800 font-sans antialiased selection:bg-tealBrand-900 selection:text-marigold-300 overflow-x-hidden">
+
+    <!-- 1. Dismissible Top Client Demo Pitch Banner -->
+    <div id="demo-pitch-banner" class="bg-tealBrand-950 text-marigold-300 text-xs sm:text-sm py-2.5 px-4 border-b border-marigold-500/30 relative z-50">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2 pr-8">
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2 mx-auto sm:mx-0 text-center sm:text-left">
+                <span class="inline-flex items-center gap-2 font-medium">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                    <span>✨ Live Website Demo Prepared Exclusively for <strong class="text-white">Raj Gift &amp; Kids Collection</strong> by <strong class="text-marigold-400">Ashish Sharma</strong> (Full-Stack Web Developer)</span>
+                </span>
+            </div>
+            <div class="mx-auto sm:mx-0">
+                <a href="https://wa.me/918292794750?text=Namaste%20Ashish%20ji,%20mujhe%20Raj%20Gift%20%26%20Kids%20Collection%20ki%20website%20demo%20pasand%20aayi!" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 bg-gradient-to-r from-marigold-500 to-tangerine-500 hover:from-marigold-400 hover:to-tangerine-400 text-tealBrand-950 font-bold px-4 py-1.5 rounded-full text-xs shadow-md transition whitespace-nowrap">
+                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                    <span>Get This Website Live &bull; ₹1,999</span>
+                </a>
+            </div>
+        </div>
+        <button onclick="document.getElementById('demo-pitch-banner').remove()" aria-label="Close Demo Pitch Banner" class="absolute right-3 top-1/2 -translate-y-1/2 text-marigold-300/70 hover:text-white p-1.5 transition">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <!-- Sticky Glassmorphism Navigation -->
+    <header class="sticky top-0 z-40 bg-ivoryCream-50/90 backdrop-blur-md border-b border-tealBrand-900/10 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Bespoke Inline SVG Emblem & Wordmark -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-tealBrand-900 to-tealBrand-800 border-2 border-marigold-400/70 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
+                        <svg class="w-8 h-8 text-marigold-400" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Golden Crown / Star on Top -->
+                            <path d="M21 18L24 11L32 16L40 11L43 18H21Z" fill="currentColor"/>
+                            <!-- Cute Gift Box Base & Lid -->
+                            <rect x="14" y="29" width="36" height="24" rx="5" stroke="currentColor" stroke-width="2.5"/>
+                            <rect x="11" y="22" width="42" height="7" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M32 22V53" stroke="currentColor" stroke-width="2.5"/>
+                            <!-- Ribbon Bow Loops -->
+                            <path d="M32 22C26 16 19 16 19 20C19 22 25 22 32 22Z" stroke="#FB923C" stroke-width="2.3" stroke-linejoin="round"/>
+                            <path d="M32 22C38 16 45 16 45 20C45 22 39 22 32 22Z" stroke="#FB923C" stroke-width="2.3" stroke-linejoin="round"/>
+                            <!-- Happy Sparkle -->
+                            <circle cx="51" cy="12" r="2.2" fill="#FB923C"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="font-display text-lg sm:text-xl font-bold text-tealBrand-900 tracking-wide block leading-none">RAJ GIFT &amp; KIDS</span>
+                        <span class="text-[10px] sm:text-[11px] uppercase tracking-[0.2em] text-tangerine-600 font-bold block mt-1">Collection &bull; Toys &amp; Baby Boutique</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden xl:flex items-center space-x-6 text-sm font-semibold text-slate-700">
+                    <a href="#age-finder" class="hover:text-tealBrand-900 transition">Categories</a>
+                    <a href="#catalogue" class="hover:text-tealBrand-900 transition">Catalogue</a>
+                    <a href="#age-finder" class="hover:text-tealBrand-900 transition">Age Finder</a>
+                    <a href="#order-builder" class="hover:text-tealBrand-900 transition">Party Bulk Orders</a>
+                    <a href="#contact" class="hover:text-tealBrand-900 transition">Enquiry &amp; Contact</a>
+                </nav>
+
+                <!-- Action Controls: Search Shortcut, Store Owner Leads, Wishlist Drawer & WhatsApp Order -->
+                <div class="flex items-center gap-2 sm:gap-2.5">
+                    <!-- Search Shortcut Button -->
+                    <button onclick="focusCatalogueSearch()" aria-label="Search Products" class="p-2.5 rounded-full bg-ivoryCream-100 hover:bg-ivoryCream-200 border border-tealBrand-900/10 text-tealBrand-900 transition" title="Search Toys & Gifts">
+                        <i class="fa-solid fa-magnifying-glass text-sm"></i>
+                    </button>
+
+                    <!-- Store Owner Live Enquiries Trigger -->
+                    <button onclick="openLeadsDrawer()" aria-label="Store Owner Live Enquiries" class="relative p-2.5 sm:px-3.5 sm:py-2.5 rounded-full bg-tealBrand-900/10 hover:bg-tealBrand-900/15 border border-tealBrand-900/15 text-tealBrand-900 transition flex items-center gap-1.5" title="Store Owner Preview: Live Enquiries">
+                        <i class="fa-solid fa-inbox text-sm"></i>
+                        <span class="hidden md:inline text-xs font-bold">Leads</span>
+                        <span id="leads-badge" class="w-5 h-5 rounded-full bg-tangerine-500 text-white text-[11px] font-bold flex items-center justify-center">2</span>
+                    </button>
+
+                    <!-- Saved Wishlist Drawer Trigger -->
+                    <button onclick="openWishlistDrawer()" aria-label="Saved Wishlist" class="relative p-2.5 sm:px-3.5 sm:py-2.5 rounded-full bg-ivoryCream-100 hover:bg-ivoryCream-200 border border-tealBrand-900/10 text-tealBrand-900 transition flex items-center gap-1.5">
+                        <i class="fa-solid fa-heart text-tangerine-500 text-sm"></i>
+                        <span class="hidden sm:inline text-xs font-bold">Wishlist</span>
+                        <span id="wishlist-badge" class="w-5 h-5 rounded-full bg-tealBrand-900 text-marigold-300 text-[11px] font-bold flex items-center justify-center">0</span>
+                    </button>
+
+                    <!-- Green WhatsApp Order CTA -->
+                    <a href="#order-builder" class="hidden sm:inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2.5 rounded-full text-xs sm:text-sm shadow-md shadow-emerald-600/20 transition transform hover:-translate-y-0.5">
+                        <i class="fa-brands fa-whatsapp text-base"></i>
+                        <span>WhatsApp Order</span>
+                    </a>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button id="mobile-menu-btn" aria-label="Toggle Menu" class="xl:hidden text-tealBrand-900 p-2.5 rounded-xl bg-ivoryCream-100 hover:bg-ivoryCream-200 transition">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Drawer -->
+        <div id="mobile-menu" class="hidden xl:hidden bg-ivoryCream-50 border-t border-tealBrand-900/10 px-4 pt-3 pb-6 space-y-2 shadow-xl">
+            <a href="#age-finder" class="mobile-link block py-2.5 px-3 rounded-xl text-slate-800 hover:bg-ivoryCream-100 font-semibold">Categories &amp; Shop by Age</a>
+            <a href="#catalogue" class="mobile-link block py-2.5 px-3 rounded-xl text-slate-800 hover:bg-ivoryCream-100 font-semibold">Toys, Baby Care &amp; Gift Catalogue</a>
+            <a href="#order-builder" class="mobile-link block py-2.5 px-3 rounded-xl text-slate-800 hover:bg-ivoryCream-100 font-semibold">Birthday Party Bulk Orders (12% Off)</a>
+            <a href="#reviews" class="mobile-link block py-2.5 px-3 rounded-xl text-slate-800 hover:bg-ivoryCream-100 font-semibold">Happy Parents Reviews</a>
+            <a href="#contact" class="mobile-link block py-2.5 px-3 rounded-xl text-slate-800 hover:bg-ivoryCream-100 font-semibold">Enquiry &amp; Store Timings</a>
+            <a href="#order-builder" class="mobile-link block text-center mt-3 bg-emerald-600 text-white font-bold py-3 rounded-xl shadow-md">
+                <i class="fa-brands fa-whatsapp mr-1.5"></i> Order on WhatsApp Now
+            </a>
+        </div>
+    </header>
+
+    <!-- 2. Playful Luxury Hero Section on Warm Cream Ivory -->
+    <section class="relative bg-gradient-to-b from-ivoryCream-50 via-ivoryCream-100/70 to-ivoryCream-50 overflow-hidden border-b border-tealBrand-900/10">
+        <!-- Subtle Geometric Confetti & Star SVG Accents -->
+        <svg class="absolute top-8 left-6 w-28 h-28 text-marigold-400/35 pointer-events-none" viewBox="0 0 100 100" fill="none">
+            <path d="M25 10L28 19L37 22L28 25L25 34L22 25L13 22L22 19L25 10Z" fill="currentColor"/>
+            <circle cx="72" cy="24" r="5" fill="#F97316" fill-opacity="0.35"/>
+            <rect x="48" y="65" width="10" height="10" rx="2" transform="rotate(25 48 65)" stroke="#0D4F4B" stroke-opacity="0.25" stroke-width="2.5"/>
+        </svg>
+        <svg class="absolute bottom-10 right-8 w-36 h-36 text-tealBrand-800/15 pointer-events-none" viewBox="0 0 120 120" fill="none">
+            <path d="M90 15L94 27L106 31L94 35L90 47L86 35L74 31L86 27L90 15Z" fill="#F59E0B" fill-opacity="0.4"/>
+            <circle cx="30" cy="85" r="8" stroke="currentColor" stroke-width="3"/>
+            <path d="M55 55L68 68M68 55L55 68" stroke="#F97316" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                
+                <!-- Left Split Content (7 Columns) -->
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-tealBrand-900/10 border border-tealBrand-900/15 px-4 py-1.5 rounded-full text-xs sm:text-sm text-tealBrand-900 font-bold">
+                        <i class="fa-solid fa-sparkles text-tangerine-500"></i>
+                        <span>Toys &bull; Newborn Baby Care &bull; Birthday Return Gifts</span>
+                    </div>
+
+                    <h1 class="font-display text-3xl sm:text-5xl lg:text-[3.4rem] font-bold leading-[1.15] text-tealBrand-900">
+                        Smiles Wrapped in Every Box — <span class="font-serif italic text-tangerine-600">Toys, Baby Care</span> &amp; Thoughtful Gifts.
+                    </h1>
+
+                    <p class="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Explore safe, non-toxic kids' wooden &amp; STEM toys, soft organic newborn essentials, exciting birthday return-gift combos, and personalized family keepsakes—all wrapped with love at <strong class="text-tealBrand-900">Raj Gift &amp; Kids Collection</strong>.
+                    </p>
+
+                    <!-- Dual Primary CTAs -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-1">
+                        <a href="#catalogue" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-tealBrand-900 to-tealBrand-800 hover:from-tealBrand-800 hover:to-tealBrand-700 text-marigold-300 font-bold text-base shadow-xl shadow-tealBrand-900/20 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2.5">
+                            <span>Explore Toy &amp; Gift Catalogue</span>
+                            <i class="fa-solid fa-gift"></i>
+                        </a>
+                        <a href="#order-builder" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-base shadow-lg shadow-emerald-600/20 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2.5">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>Order on WhatsApp</span>
+                        </a>
+                    </div>
+
+                    <!-- 3 Trust Badges -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-4">
+                        <div class="flex items-center justify-center lg:justify-start gap-2.5 bg-white px-4 py-3 rounded-2xl border border-tealBrand-900/10 shadow-sm">
+                            <span class="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-sm shrink-0">
+                                <i class="fa-solid fa-shield-heart"></i>
+                            </span>
+                            <span class="text-xs font-bold text-slate-800">100% Child-Safe &amp; BPA-Free</span>
+                        </div>
+                        <div class="flex items-center justify-center lg:justify-start gap-2.5 bg-white px-4 py-3 rounded-2xl border border-tealBrand-900/10 shadow-sm">
+                            <span class="w-8 h-8 rounded-xl bg-amber-100 text-marigold-600 flex items-center justify-center text-sm shrink-0">
+                                <i class="fa-solid fa-ribbon"></i>
+                            </span>
+                            <span class="text-xs font-bold text-slate-800">Same-Day Gift Wrapping</span>
+                        </div>
+                        <div class="flex items-center justify-center lg:justify-start gap-2.5 bg-white px-4 py-3 rounded-2xl border border-tealBrand-900/10 shadow-sm">
+                            <span class="w-8 h-8 rounded-xl bg-orange-100 text-tangerine-600 flex items-center justify-center text-sm shrink-0">
+                                <i class="fa-solid fa-cake-candles"></i>
+                            </span>
+                            <span class="text-xs font-bold text-slate-800">Bulk Birthday Return Deals</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Boutique Visual Card with Floating Glassmorphic Badges (5 Columns) -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative rounded-[2rem] p-3 bg-gradient-to-br from-marigold-400/50 via-tangerine-400/30 to-tealBrand-800/30 shadow-2xl">
+                        <div class="relative rounded-3xl overflow-hidden bg-tealBrand-950">
+                            <img src="https://images.pexels.com/photos/3661264/pexels-photo-3661264.jpeg?auto=compress&cs=tinysrgb&w=1000" 
+                                 onerror="this.src='https://placehold.co/800x920/0D4F4B/F59E0B?text=Raj+Gift+%26+Kids+Collection'" 
+                                 alt="Colorful Wooden Montessori Toys and Gifts at Raj Gift & Kids Collection" 
+                                 class="w-full h-[370px] sm:h-[440px] object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-tealBrand-950/80 via-transparent to-transparent"></div>
+
+                            <!-- Floating Glassmorphic Badge 1: New Arrivals 2026 -->
+                            <div class="float-badge-1 absolute top-4 left-4 bg-white/90 backdrop-blur-md border border-white px-4 py-2 rounded-2xl shadow-lg flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-tangerine-500"></span>
+                                <span class="text-xs font-extrabold text-tealBrand-900">New Arrivals 2026</span>
+                            </div>
+
+                            <!-- Floating Glassmorphic Badge 2: 4.9★ Happy Parents -->
+                            <div class="float-badge-2 absolute top-4 right-4 bg-tealBrand-950/85 backdrop-blur-md border border-marigold-400/50 px-3.5 py-2 rounded-2xl shadow-lg text-marigold-300 text-xs font-bold flex items-center gap-1.5">
+                                <i class="fa-solid fa-star text-marigold-400"></i>
+                                <span>4.9★ Happy Parents</span>
+                            </div>
+
+                            <!-- Bottom Featured Toy Strip -->
+                            <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md border border-marigold-400/40 p-4 rounded-2xl flex items-center justify-between gap-3 shadow-xl">
+                                <div>
+                                    <span class="text-[10px] font-bold uppercase tracking-wider text-tangerine-600">Top Pick for Toddlers</span>
+                                    <h3 class="font-display font-bold text-sm sm:text-base text-tealBrand-900">Wooden Montessori Rainbow Set</h3>
+                                    <p class="text-xs text-slate-500">₹699 <span class="line-through text-slate-400">₹999</span> &bull; BPA-Free Wood</p>
+                                </div>
+                                <button onclick="selectProductInBuilder(1)" class="shrink-0 px-4 py-2.5 rounded-xl bg-tealBrand-900 hover:bg-tangerine-500 text-marigold-300 hover:text-white text-xs font-bold transition shadow-md">
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Shop-by-Age Quick Finder Bar -->
+    <section id="age-finder" class="py-8 bg-tealBrand-900 text-white shadow-inner">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-3 text-center lg:text-left">
+                    <div class="w-10 h-10 rounded-2xl bg-marigold-500 text-tealBrand-950 flex items-center justify-center text-lg shrink-0 shadow">
+                        <i class="fa-solid fa-child-reaching"></i>
+                    </div>
+                    <div>
+                        <span class="text-[11px] uppercase tracking-widest text-marigold-300 font-bold block">Quick Gift Finder</span>
+                        <h2 class="font-display text-lg sm:text-xl font-bold text-white leading-tight">Shop by Child's Age Group</h2>
+                    </div>
+                </div>
+
+                <!-- Age Quick Filter Pills -->
+                <div id="age-filter-bar" class="flex flex-wrap items-center justify-center gap-2">
+                    <button data-age="all" class="age-pill active px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-marigold-500 text-tealBrand-950 shadow-md transition">
+                        All Ages
+                    </button>
+                    <button data-age="0–2 Yrs" class="age-pill px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+                        0–2 Yrs (Infant &amp; Baby)
+                    </button>
+                    <button data-age="3–5 Yrs" class="age-pill px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+                        3–5 Yrs (Toddlers)
+                    </button>
+                    <button data-age="6–10 Yrs" class="age-pill px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+                        6–10 Yrs (Kids &amp; STEM)
+                    </button>
+                    <button data-age="All Ages" class="age-pill px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+                        All Ages (Gifts &amp; Decor)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Interactive Online Catalogue (8 Curated Products) -->
+    <section id="catalogue" class="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-tangerine-600 font-bold text-xs uppercase tracking-[0.22em]">Curated Toyland &amp; Gift Boutique</span>
+            <h2 class="font-display text-3xl sm:text-4xl font-bold text-tealBrand-900 mt-2">Raj Gift &amp; Kids Online Catalogue</h2>
+            <p class="text-slate-600 mt-3 text-sm sm:text-base">Browse by category or age group, save favorites to your wishlist, inspect safety specs in Quick View, or click <strong class="text-tealBrand-900">"Enquire / Order"</strong> for instant pricing.</p>
+        </div>
+
+        <!-- Category Tabs + Live Search + Price Sort -->
+        <div class="bg-white p-4 rounded-3xl shadow-sm border border-tealBrand-900/10 mb-10 space-y-4">
+            <!-- Category Filter Pills -->
+            <div id="category-tabs" class="flex flex-wrap items-center justify-center gap-2">
+                <button data-cat="all" class="cat-tab active px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-tealBrand-900 text-marigold-300 shadow-sm transition">
+                    All Items
+                </button>
+                <button data-cat="Kids Toys" class="cat-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-ivoryCream-100 text-slate-700 hover:bg-ivoryCream-200 transition">
+                    Kids Toys
+                </button>
+                <button data-cat="Baby Care" class="cat-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-ivoryCream-100 text-slate-700 hover:bg-ivoryCream-200 transition">
+                    Baby Care
+                </button>
+                <button data-cat="Birthday Return Gifts" class="cat-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-ivoryCream-100 text-slate-700 hover:bg-ivoryCream-200 transition">
+                    Birthday Return Gifts
+                </button>
+                <button data-cat="Personalized & Family Gifts" class="cat-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-ivoryCream-100 text-slate-700 hover:bg-ivoryCream-200 transition">
+                    Personalized &amp; Family Gifts
+                </button>
+            </div>
+
+            <!-- Active Age Indicator + Search Input + Price Sort -->
+            <div class="flex flex-col md:flex-row items-center justify-between gap-3 pt-3 border-t border-ivoryCream-200">
+                <!-- Search Input -->
+                <div class="relative w-full md:w-80">
+                    <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+                    <input type="text" id="catalogue-search" placeholder="Search Montessori, Teddy, Walker, LED Lamp..." 
+                           class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-ivoryCream-50 border border-tealBrand-900/15 text-sm focus:outline-none focus:ring-2 focus:ring-tealBrand-900 focus:bg-white transition">
+                </div>
+
+                <!-- Right Controls: Age Reset Pill + Price Sort -->
+                <div class="flex flex-wrap items-center justify-end gap-3 w-full md:w-auto">
+                    <span id="active-age-indicator" class="hidden items-center gap-1.5 text-xs font-bold bg-marigold-500/20 text-tealBrand-900 px-3 py-1.5 rounded-xl">
+                        <span>Age: <strong id="active-age-text"></strong></span>
+                        <button onclick="resetAgeFilter()" class="text-tangerine-600 hover:text-tealBrand-900 ml-1" title="Clear Age Filter"><i class="fa-solid fa-xmark"></i></button>
+                    </span>
+
+                    <div class="flex items-center gap-2">
+                        <label for="sort-select" class="text-xs font-bold uppercase tracking-wider text-slate-500">Sort:</label>
+                        <select id="sort-select" onchange="renderProducts()" class="py-2 px-3.5 rounded-xl bg-ivoryCream-50 border border-tealBrand-900/15 text-xs sm:text-sm font-semibold text-tealBrand-900 focus:outline-none focus:ring-2 focus:ring-tealBrand-900">
+                            <option value="featured">Featured</option>
+                            <option value="low-high">Price: Low to High</option>
+                            <option value="high-low">Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Dynamically rendered via JS -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="empty-catalogue" class="hidden text-center py-14 bg-white rounded-3xl border border-tealBrand-900/10">
+            <i class="fa-solid fa-shapes text-4xl text-tangerine-400 mb-3"></i>
+            <p class="font-display text-xl font-bold text-tealBrand-900">No toys or gifts matched your filter</p>
+            <p class="text-xs text-slate-500 mt-1">Try resetting the age group or category filter to view all 8 curated items.</p>
+            <button onclick="resetAllFilters()" class="mt-4 px-5 py-2.5 rounded-xl bg-tealBrand-900 text-marigold-300 text-xs font-bold">Show All Products</button>
+        </div>
+    </section>
+
+    <!-- 4. Interactive Birthday Return Gift & Order Enquiry Builder -->
+    <section id="order-builder" class="py-16 sm:py-24 bg-gradient-to-br from-tealBrand-950 via-tealBrand-900 to-tealBrand-800 text-ivoryCream-50 relative overflow-hidden">
+        <div class="absolute -top-24 right-1/4 w-96 h-96 bg-marigold-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="inline-block bg-marigold-500/20 text-marigold-300 border border-marigold-400/35 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+                    Birthday Return-Gift &amp; Order Builder
+                </span>
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-3">
+                    Customize Your Order &amp; Unlock 12% Party Bulk Savings
+                </h2>
+                <p class="text-ivoryCream-100/85 text-sm sm:text-base mt-2">
+                    Select any toy, baby hamper, or custom birthday return-gift combo, pick your gift wrapping style, and send your order directly on WhatsApp or save an online enquiry.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                
+                <!-- Left Side: Live Order & Return-Gift Estimator (6 Columns) -->
+                <div class="lg:col-span-6 bg-white text-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl border border-marigold-400/40 space-y-5">
+                    <div class="flex items-center justify-between pb-3 border-b border-ivoryCream-200">
+                        <div>
+                            <span class="text-[11px] font-bold uppercase tracking-wider text-tangerine-600">Step 1: Configure Items</span>
+                            <h3 class="font-display text-xl sm:text-2xl font-bold text-tealBrand-900">Live Order &amp; Return-Gift Estimator</h3>
+                        </div>
+                        <div class="w-10 h-10 rounded-2xl bg-tealBrand-900 text-marigold-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-calculator"></i>
+                        </div>
+                    </div>
+
+                    <!-- Product Dropdown -->
+                    <div>
+                        <label for="builder-product" class="block text-xs font-bold uppercase tracking-wider text-tealBrand-900 mb-1.5">Select Toy, Baby Product or Hamper</label>
+                        <select id="builder-product" onchange="updateOrderEstimate()" class="w-full p-3.5 rounded-xl bg-ivoryCream-50 border border-tealBrand-900/15 text-sm font-bold text-tealBrand-900 focus:outline-none focus:ring-2 focus:ring-tealBrand-900">
+                            <!-- Populated via JS + Custom Birthday Return Gift Hamper -->
+                        </select>
+                    </div>
+
+                    <!-- Customer / Child's Name (Optional for Gift Tag / Personalization) -->
+                    <div>
+                        <label for="builder-child-name" class="block text-xs font-bold uppercase tracking-wider text-tealBrand-900 mb-1.5">Child's / Recipient's Name (For Custom Tag / LED Lamp)</label>
+                        <input type="text" id="builder-child-name" placeholder="e.g., Aarav's 5th Birthday or Baby Kiara" 
+                               class="w-full p-3.5 rounded-xl bg-ivoryCream-50 border border-tealBrand-900/15 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-tealBrand-900">
+                    </div>
+
+                    <!-- Quantity + Bulk Discount Banner -->
+                    <div>
+                        <div class="flex items-center justify-between mb-1.5">
+                            <label for="builder-qty" class="text-xs font-bold uppercase tracking-wider text-tealBrand-900">Quantity (1 to 100+ Pcs)</label>
+                            <span id="bulk-status-pill" class="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full">
+                                10+ pcs = 12% Bulk Party Discount!
+                            </span>
+                        </div>
+                        <div class="flex items-center border border-tealBrand-900/15 rounded-xl bg-ivoryCream-50 overflow-hidden">
+                            <button type="button" onclick="adjustBuilderQty(-1)" class="px-5 py-3 text-tealBrand-900 hover:bg-ivoryCream-200 font-bold transition">-</button>
+                            <input type="number" id="builder-qty" value="1" min="1" max="500" oninput="updateOrderEstimate()" class="w-full text-center bg-transparent font-extrabold text-tealBrand-900 text-base focus:outline-none">
+                            <button type="button" onclick="adjustBuilderQty(1)" class="px-5 py-3 text-tealBrand-900 hover:bg-ivoryCream-200 font-bold transition">+</button>
+                        </div>
+                    </div>
+
+                    <!-- Gift Wrapping Toggle -->
+                    <div>
+                        <span class="block text-xs font-bold uppercase tracking-wider text-tealBrand-900 mb-2">Gift Wrapping Style</span>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <label class="cursor-pointer flex items-center gap-3 p-3.5 rounded-2xl bg-ivoryCream-50 border border-tealBrand-900/15 hover:border-tealBrand-900 transition">
+                                <input type="radio" name="gift-wrap" value="0" checked onchange="updateOrderEstimate()" class="accent-tealBrand-900 w-4 h-4">
+                                <div class="text-xs">
+                                    <span class="font-bold text-tealBrand-900 block">Free Standard Wrap</span>
+                                    <span class="text-emerald-700 font-semibold">₹0 (Festive Paper + Ribbon)</span>
+                                </div>
+                            </label>
+                            <label class="cursor-pointer flex items-center gap-3 p-3.5 rounded-2xl bg-ivoryCream-50 border border-tealBrand-900/15 hover:border-tangerine-500 transition">
+                                <input type="radio" name="gift-wrap" value="49" onchange="updateOrderEstimate()" class="accent-tealBrand-900 w-4 h-4">
+                                <div class="text-xs">
+                                    <span class="font-bold text-tealBrand-900 block">Premium Theme Gift Box</span>
+                                    <span class="text-tangerine-600 font-semibold">+₹49 / pc (Cartoon/Luxury Box)</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Itemized Live Price Breakdown Box -->
+                    <div class="bg-ivoryCream-100 rounded-2xl p-4 border border-marigold-400/40 space-y-2 text-sm">
+                        <div class="flex justify-between text-slate-600">
+                            <span>Item Subtotal (<span id="est-qty-label">1</span>x):</span>
+                            <span id="est-subtotal" class="font-bold text-slate-800">₹699</span>
+                        </div>
+                        <div class="flex justify-between text-slate-600">
+                            <span>Gift Wrapping:</span>
+                            <span id="est-wrap-cost" class="font-semibold text-slate-800">FREE (₹0)</span>
+                        </div>
+                        <div id="est-discount-row" class="hidden justify-between text-emerald-700 font-bold bg-emerald-100/70 px-3 py-1.5 rounded-xl">
+                            <span>Bulk Party Discount (12% OFF):</span>
+                            <span id="est-discount-val">- ₹0</span>
+                        </div>
+                        <div class="pt-2.5 border-t border-tealBrand-900/10 flex items-baseline justify-between">
+                            <span class="text-xs font-bold uppercase tracking-wider text-tealBrand-900">Estimated Total</span>
+                            <span id="est-grand-total" class="font-display text-3xl font-bold text-tealBrand-900">₹699</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Instant WhatsApp & Online Enquiry Form (6 Columns) -->
+                <div class="lg:col-span-6 bg-ivoryCream-50 text-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-marigold-400 space-y-5">
+                    <div class="flex items-center justify-between pb-3 border-b border-ivoryCream-200">
+                        <div>
+                            <span class="text-[11px] font-bold uppercase tracking-wider text-tangerine-600">Step 2: Customer Details</span>
+                            <h3 class="font-display text-xl sm:text-2xl font-bold text-tealBrand-900">Instant WhatsApp &amp; Online Enquiry</h3>
+                        </div>
+                        <button type="button" onclick="openLeadsDrawer()" class="text-xs font-bold text-tealBrand-900 bg-tealBrand-900/10 hover:bg-tealBrand-900/15 px-3 py-1.5 rounded-xl transition">
+                            <i class="fa-solid fa-eye mr-1"></i> Owner Leads
+                        </button>
+                    </div>
+
+                    <form id="enquiry-form" onsubmit="saveOnlineEnquiry(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label for="cust-name" class="block text-xs font-bold uppercase tracking-wider text-tealBrand-900 mb-1.5">Your Name *</label>
+                                <input type="text" id="cust-name" required placeholder="e.g., Priya Sharma" 
+                                       class="w-full p-3.5 rounded-xl bg-white border border-tealBrand-900/15 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-tealBrand-900">
+                            </div>
+
+                            <div>
+                                <label for="cust-phone" class="block text-xs font-bold uppercase tracking-wider text-tealBrand-900 mb-1.5">Phone / WhatsApp Number *</label>
+                                <input type="tel" id="cust-phone" required placeholder="e.g., 98765 43210" 
+                                       class="w-full p-3.5 rounded-xl bg-white border border-tealBrand-900/15 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-tealBrand-900">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label for="cust-delivery" class="block text-xs font-bold uppercase tracking-wider text-tealBrand-900 mb-1.5">Delivery / Pickup Mode</label>
+                                <select id="cust-delivery" class="w-full p-3.5 rounded-xl bg-white border border-tealBrand-900/15 text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-tealBrand-900">
+                                    <option value="Home Delivery">Home Delivery</option>
+                                    <option value="Store Pickup">Store Pickup (Ready Wrapped)</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="cust-occasion" class="block text-xs font-bold uppercase tracking-wider text-tealBrand-900 mb-1.5">Occasion</label>
+                                <select id="cust-occasion" class="w-full p-3.5 rounded-xl bg-white border border-tealBrand-900/15 text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-tealBrand-900">
+                                    <option value="Birthday">Birthday</option>
+                                    <option value="Newborn Welcome">Newborn Welcome</option>
+                                    <option value="Festival / Return Gift">Festival / Return Gift</option>
+                                    <option value="Casual Surprise">Casual Surprise</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="cust-address-note" class="block text-xs font-bold uppercase tracking-wider text-tealBrand-900 mb-1.5">Delivery Area / Special Request (Optional)</label>
+                            <textarea id="cust-address-note" rows="2" placeholder="e.g., Need blue/pink theme wrap, or deliver by tomorrow evening..." 
+                                      class="w-full p-3.5 rounded-xl bg-white border border-tealBrand-900/15 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-tealBrand-900"></textarea>
+                        </div>
+
+                        <!-- Dual Action Buttons -->
+                        <div class="pt-2 space-y-3">
+                            <button type="button" onclick="sendOrderOnWhatsApp()" class="w-full py-4 px-5 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm sm:text-base shadow-xl shadow-emerald-600/25 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2.5">
+                                <i class="fa-brands fa-whatsapp text-xl"></i>
+                                <span>Send Order Enquiry on WhatsApp</span>
+                            </button>
+
+                            <button type="submit" class="w-full py-3.5 px-5 rounded-2xl bg-tealBrand-900 hover:bg-tealBrand-800 text-marigold-300 font-bold text-sm shadow-md transition flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <span>Save Online Enquiry (Live Owner Preview)</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Why Parents & Gift Buyers Love Us (3 Highlight Pillars) -->
+    <section class="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14">
+            <span class="text-tangerine-600 font-bold text-xs uppercase tracking-[0.22em]">Trusted by Local Families</span>
+            <h2 class="font-display text-3xl sm:text-4xl font-bold text-tealBrand-900 mt-2">Why Parents &amp; Gift Buyers Love Us</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Pillar 1 -->
+            <div class="bg-white p-8 rounded-3xl border border-tealBrand-900/10 shadow-sm hover:shadow-lg transition">
+                <div class="w-14 h-14 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-2xl mb-5">
+                    <i class="fa-solid fa-shield-cat"></i>
+                </div>
+                <h3 class="font-display text-xl font-bold text-tealBrand-900 mb-2">Child-Safe Certified Toys</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">
+                    Every wooden toy, teether, and plush buddy is non-toxic, smooth-edged, and BIS/BPA-free—giving parents complete peace of mind for infants and toddlers.
+                </p>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="bg-white p-8 rounded-3xl border border-tealBrand-900/10 shadow-sm hover:shadow-lg transition">
+                <div class="w-14 h-14 rounded-2xl bg-amber-100 text-marigold-600 flex items-center justify-center text-2xl mb-5">
+                    <i class="fa-solid fa-gift"></i>
+                </div>
+                <h3 class="font-display text-xl font-bold text-tealBrand-900 mb-2">Custom Theme Gift Wrapping</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">
+                    From princess pink and jungle safari themes to personalized LED name lamps, we wrap every gift box with matching ribbons and custom birthday name tags.
+                </p>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="bg-white p-8 rounded-3xl border border-tealBrand-900/10 shadow-sm hover:shadow-lg transition">
+                <div class="w-14 h-14 rounded-2xl bg-orange-100 text-tangerine-600 flex items-center justify-center text-2xl mb-5">
+                    <i class="fa-solid fa-boxes-stacked"></i>
+                </div>
+                <h3 class="font-display text-xl font-bold text-tealBrand-900 mb-2">Bulk Return Gift Packages</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">
+                    Planning a birthday party or baby shower? Enjoy flat 12% bulk party discounts on 10+ pieces with ready-to-distribute stationery, sipper, and game combos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Local Parents & Gift Buyers Testimonials -->
+    <section id="reviews" class="py-16 sm:py-20 bg-ivoryCream-100 border-y border-tealBrand-900/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-tangerine-600 font-bold text-xs uppercase tracking-[0.22em]">4.9 ★ Google Rated Kids &amp; Gift Store</span>
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-tealBrand-900 mt-2">Stories from Happy Parents</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Review 1 -->
+                <div class="bg-white p-7 rounded-3xl border border-tealBrand-900/10 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="text-marigold-500 text-sm mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-sm text-slate-600 italic leading-relaxed">
+                            "Ordered 25 Kids Birthday Return Gift Stationery &amp; Sipper Combos for my son's 6th birthday party! Raj Gift &amp; Kids Collection packed every set with custom name tags and gave us an awesome bulk discount."
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-ivoryCream-200 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-tealBrand-900 text-marigold-300 font-bold flex items-center justify-center text-sm">RS</div>
+                        <div>
+                            <h4 class="font-bold text-tealBrand-900 text-sm">Ritika Saxena</h4>
+                            <p class="text-xs text-slate-500">Birthday Return Gift Order (25 Pcs)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white p-7 rounded-3xl border border-tealBrand-900/10 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="text-marigold-500 text-sm mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-sm text-slate-600 italic leading-relaxed">
+                            "Bought the Deluxe 7-Pc Organic Newborn Baby Care Hamper and the Musical Baby Walker for my nephew. Super soft cotton quality and zero sharp edges. Best baby &amp; toy shop in town!"
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-ivoryCream-200 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-tangerine-500 text-white font-bold flex items-center justify-center text-sm">VM</div>
+                        <div>
+                            <h4 class="font-bold text-tealBrand-900 text-sm">Vikram Malhotra</h4>
+                            <p class="text-xs text-slate-500">Newborn Baby Care Customer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white p-7 rounded-3xl border border-tealBrand-900/10 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="text-marigold-500 text-sm mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-sm text-slate-600 italic leading-relaxed">
+                            "Got a Personalized LED Name &amp; Photo Lamp and a 3-Feet Plush Teddy Bear for my daughter's room. She sleeps with the warm lamp on every night! Very polite staff and fast WhatsApp response."
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-ivoryCream-200 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-tealBrand-900 text-marigold-300 font-bold flex items-center justify-center text-sm">NG</div>
+                        <div>
+                            <h4 class="font-bold text-tealBrand-900 text-sm">Nidhi Gupta</h4>
+                            <p class="text-xs text-slate-500">Personalized Kids Gift Buyer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Royal Teal Footer & Developer Credit -->
+    <footer id="contact" class="bg-tealBrand-950 text-ivoryCream-200 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+                
+                <!-- Brand About -->
+                <div class="space-y-4">
+                    <span class="font-display text-xl font-bold text-white tracking-wide block">RAJ GIFT &amp; KIDS COLLECTION</span>
+                    <p class="text-sm text-ivoryCream-200/75 leading-relaxed">
+                        Your one-stop neighborhood destination for child-safe wooden &amp; STEM toys, organic newborn baby care hampers, birthday return gifts, and personalized keepsakes.
+                    </p>
+                    <div class="flex items-center gap-3 pt-1">
+                        <a href="#order-builder" aria-label="Instagram" class="w-9 h-9 rounded-xl bg-white/10 hover:bg-marigold-500 hover:text-tealBrand-950 flex items-center justify-center transition"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#order-builder" aria-label="WhatsApp" class="w-9 h-9 rounded-xl bg-white/10 hover:bg-emerald-600 hover:text-white flex items-center justify-center transition"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#order-builder" aria-label="Facebook" class="w-9 h-9 rounded-xl bg-white/10 hover:bg-marigold-500 hover:text-tealBrand-950 flex items-center justify-center transition"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-marigold-300 font-bold text-base mb-4">Quick Categories</h3>
+                    <ul class="space-y-2.5 text-sm text-ivoryCream-200/75">
+                        <li><button onclick="jumpToCategory('Kids Toys')" class="hover:text-marigold-300 transition">Kids Wooden &amp; STEM Toys</button></li>
+                        <li><button onclick="jumpToCategory('Baby Care')" class="hover:text-marigold-300 transition">Newborn &amp; Baby Care Hampers</button></li>
+                        <li><button onclick="jumpToCategory('Birthday Return Gifts')" class="hover:text-marigold-300 transition">Birthday Return Gift Combos</button></li>
+                        <li><button onclick="jumpToCategory('Personalized & Family Gifts')" class="hover:text-marigold-300 transition">Personalized LED Name Lamps</button></li>
+                        <li><a href="#order-builder" class="hover:text-marigold-300 transition">Bulk Party Order Estimator</a></li>
+                    </ul>
+                </div>
+
+                <!-- Store Timings -->
+                <div>
+                    <h3 class="text-marigold-300 font-bold text-base mb-4">Store Timings</h3>
+                    <div class="bg-tealBrand-900/80 border border-white/10 rounded-2xl p-4 space-y-2 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-ivoryCream-200/70">Monday – Sunday</span>
+                            <span class="text-white font-semibold">10:00 AM – 9:30 PM</span>
+                        </div>
+                        <p class="text-xs text-emerald-400 pt-2 border-t border-white/10">
+                            <i class="fa-solid fa-circle-check mr-1"></i> Open All 7 Days &bull; Same-Day Gift Wrap
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Details -->
+                <div>
+                    <h3 class="text-marigold-300 font-bold text-base mb-4">Visit Our Store</h3>
+                    <ul class="space-y-3 text-sm text-ivoryCream-200/80">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-marigold-400 mt-1"></i>
+                            <span>Raj Gift &amp; Kids Collection, Main Market Road (Your Store Address Here)</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-marigold-400"></i>
+                            <a href="tel:+918292794750" class="hover:text-white">+91 82927 94750</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+                            <button onclick="sendOrderOnWhatsApp()" class="text-emerald-400 hover:underline font-semibold">Order on WhatsApp</button>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Developer Pitch Attribution -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-ivoryCream-200/65">
+                <p>&copy; 2026 Raj Gift &amp; Kids Collection. All Rights Reserved.</p>
+                <p class="bg-white/5 border border-marigold-400/30 text-ivoryCream-50 px-4 py-2 rounded-full text-center">
+                    Website Demo Designed &amp; Developed by <strong class="text-marigold-300">Ashish Sharma</strong> &bull; Full-Stack Web Developer &bull; Call/WhatsApp: <a href="tel:8292794750" class="underline hover:text-white font-semibold">8292794750</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button on Bottom-Right -->
+    <button onclick="sendOrderOnWhatsApp()" aria-label="Order on WhatsApp" class="fixed bottom-5 right-5 z-40 w-14 h-14 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white shadow-2xl shadow-emerald-600/40 flex items-center justify-center hover:scale-110 transition" title="Order on WhatsApp">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </button>
+
+    <!-- Product Quick View Modal -->
+    <div id="quickview-modal" onclick="closeQuickView()" class="fixed inset-0 z-50 hidden items-center justify-center bg-tealBrand-950/80 backdrop-blur-sm p-4">
+        <div onclick="event.stopPropagation()" class="bg-white text-slate-800 rounded-3xl max-w-xl w-full overflow-hidden shadow-2xl border border-marigold-400/50 relative">
+            <button onclick="closeQuickView()" aria-label="Close Quick View" class="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/60 hover:bg-black text-white flex items-center justify-center transition">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <img id="qv-img" src="" alt="Product Preview" class="w-full h-64 object-cover bg-tealBrand-900">
+            <div class="p-6 sm:p-7 space-y-4">
+                <div class="flex flex-wrap items-center justify-between gap-2">
+                    <span id="qv-cat" class="text-xs font-bold uppercase tracking-wider text-tangerine-600 bg-orange-50 px-3 py-1 rounded-full"></span>
+                    <span id="qv-age" class="text-xs font-bold text-tealBrand-900 bg-tealBrand-900/10 px-3 py-1 rounded-full"></span>
+                </div>
+                <h3 id="qv-title" class="font-display text-2xl font-bold text-tealBrand-900"></h3>
+                <p id="qv-desc" class="text-sm text-slate-600 leading-relaxed"></p>
+                <div class="bg-ivoryCream-100 p-3.5 rounded-2xl text-xs text-slate-700 space-y-1">
+                    <p><strong class="text-tealBrand-900">Safety &amp; Quality:</strong> <span id="qv-safety"></span></p>
+                    <p><strong class="text-tealBrand-900">Bulk Party Offer:</strong> Get flat 12% OFF when ordering 10+ pieces for birthday return gifts.</p>
+                </div>
+                <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-4">
+                    <div>
+                        <span class="text-[11px] uppercase font-bold text-slate-400 block">Offer Price</span>
+                        <div class="flex items-baseline gap-2">
+                            <span id="qv-price" class="font-display text-2xl font-bold text-tealBrand-900"></span>
+                            <span id="qv-mrp" class="text-xs text-slate-400 line-through"></span>
+                        </div>
+                    </div>
+                    <button id="qv-order-btn" class="px-6 py-3.5 rounded-2xl bg-tealBrand-900 hover:bg-tangerine-500 text-marigold-300 hover:text-white font-bold text-sm transition flex items-center gap-2 shadow-md">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span>Enquire / Order</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide-Over Wishlist Drawer -->
+    <div id="wishlist-drawer" onclick="closeWishlistDrawer()" class="fixed inset-0 z-50 hidden justify-end bg-tealBrand-950/75 backdrop-blur-sm">
+        <div onclick="event.stopPropagation()" class="bg-ivoryCream-50 text-slate-800 w-full max-w-md h-full p-6 shadow-2xl border-l-2 border-marigold-400 flex flex-col justify-between overflow-y-auto">
+            <div>
+                <div class="flex items-center justify-between pb-4 border-b border-tealBrand-900/10">
+                    <h3 class="font-display text-xl font-bold text-tealBrand-900 flex items-center gap-2">
+                        <i class="fa-solid fa-heart text-tangerine-500"></i> Saved Toy &amp; Gift Wishlist
+                    </h3>
+                    <button onclick="closeWishlistDrawer()" aria-label="Close Wishlist" class="w-9 h-9 rounded-full bg-ivoryCream-200 hover:bg-ivoryCream-300 text-tealBrand-900 flex items-center justify-center">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <p class="text-xs text-slate-500 mt-2">Tap any saved item below to add it to the Order &amp; Return-Gift Estimator.</p>
+                <div id="wishlist-items-list" class="mt-4 space-y-3">
+                    <!-- Populated via JS -->
+                </div>
+            </div>
+
+            <div class="pt-4 border-t border-tealBrand-900/10 mt-6">
+                <button onclick="closeWishlistDrawer()" class="w-full py-3 rounded-xl bg-tealBrand-900 text-marigold-300 font-bold text-xs">
+                    Continue Browsing Catalogue
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Store Owner Preview: Live Enquiries Slide-Over Drawer -->
+    <div id="leads-drawer" onclick="closeLeadsDrawer()" class="fixed inset-0 z-50 hidden justify-end bg-tealBrand-950/75 backdrop-blur-sm">
+        <div onclick="event.stopPropagation()" class="bg-ivoryCream-50 text-slate-800 w-full max-w-md h-full p-6 shadow-2xl border-l-2 border-marigold-400 flex flex-col justify-between overflow-y-auto">
+            <div>
+                <div class="flex items-center justify-between pb-4 border-b border-tealBrand-900/10">
+                    <div>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-tangerine-600">Store Owner Preview</span>
+                        <h3 class="font-display text-xl font-bold text-tealBrand-900">Live Customer Enquiries</h3>
+                    </div>
+                    <button onclick="closeLeadsDrawer()" aria-label="Close Leads Drawer" class="w-9 h-9 rounded-full bg-ivoryCream-200 hover:bg-ivoryCream-300 text-tealBrand-900 flex items-center justify-center">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <p class="text-xs text-slate-500 mt-3 leading-relaxed">
+                    Whenever a parent or buyer submits an enquiry on your website, it appears instantly here with a 1-click WhatsApp reply button:
+                </p>
+
+                <div id="leads-list-container" class="mt-4 space-y-3">
+                    <!-- Populated via JS -->
+                </div>
+            </div>
+
+            <div class="pt-4 border-t border-tealBrand-900/10 mt-6">
+                <button onclick="closeLeadsDrawer()" class="w-full py-3 rounded-xl bg-tealBrand-900 text-marigold-300 font-bold text-xs">
+                    Close Owner Preview
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enquiry Saved Confirmation Modal -->
+    <div id="saved-modal" onclick="closeSavedModal()" class="fixed inset-0 z-50 hidden items-center justify-center bg-tealBrand-950/85 backdrop-blur-sm p-4">
+        <div onclick="event.stopPropagation()" class="bg-ivoryCream-50 text-slate-800 rounded-3xl max-w-md w-full p-7 shadow-2xl border-2 border-marigold-400 relative text-center">
+            <button onclick="closeSavedModal()" aria-label="Close Modal" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-ivoryCream-200 hover:bg-ivoryCream-300 text-tealBrand-900 flex items-center justify-center">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center text-3xl mx-auto mb-3">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+
+            <span class="text-xs font-bold uppercase tracking-widest text-tangerine-600">Lead ID <span id="saved-ref-id">#RJK-2026-4109</span></span>
+            <h3 class="font-display text-2xl font-bold text-tealBrand-900 mt-1">Online Enquiry Saved!</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+                Thank you, <strong id="saved-cust-name" class="text-tealBrand-900">Parent</strong>! Your enquiry has been added to <strong class="text-tealBrand-900">Raj Gift &amp; Kids Collection's</strong> Live Enquiries dashboard.
+            </p>
+
+            <div class="bg-white p-4 rounded-2xl border border-tealBrand-900/15 my-4 text-left text-xs space-y-1.5">
+                <div class="flex justify-between gap-2"><span class="text-slate-500">Item:</span> <strong id="saved-item" class="text-tealBrand-900 text-right"></strong></div>
+                <div class="flex justify-between"><span class="text-slate-500">Quantity:</span> <strong id="saved-qty"></strong></div>
+                <div class="flex justify-between"><span class="text-slate-500">Estimated Total:</span> <strong id="saved-total" class="text-emerald-700"></strong></div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-2.5">
+                <button onclick="closeSavedModal(); openLeadsDrawer();" class="flex-1 py-3 px-4 rounded-xl bg-tealBrand-900 text-marigold-300 font-bold text-xs flex items-center justify-center gap-1.5">
+                    <i class="fa-solid fa-inbox"></i> View in Owner Leads
+                </button>
+                <button onclick="sendOrderOnWhatsApp(); closeSavedModal();" class="flex-1 py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-1.5">
+                    <i class="fa-brands fa-whatsapp text-sm"></i> Also WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Logic -->
+    <script>
+        const PITCH_WHATSAPP = "918292794750";
+
+        // 8 Curated Products with Verified Pexels Photos & Indian Rupee Pricing
+        const catalogueProducts = [
+            {
+                id: 1,
+                title: "Wooden Montessori Rainbow Stacker & Blocks Set",
+                category: "Kids Toys",
+                age: "0–2 Yrs",
+                price: 699,
+                mrp: 999,
+                badge: "BPA-Free Wood",
+                safety: "Non-toxic water-based colors, smooth rounded beechwood edges, EN71 & BIS child-safe.",
+                desc: "12-piece vibrant wooden rainbow arch & building blocks designed to boost toddler motor skills, balance, and color recognition.",
+                image: "https://images.pexels.com/photos/3661264/pexels-photo-3661264.jpeg?auto=compress&cs=tinysrgb&w=800",
+                fallback: "https://placehold.co/600x420/0D4F4B/F59E0B?text=Montessori+Rainbow+Stacker"
+            },
+            {
+                id: 2,
+                title: "Super-Soft Giant Plush Teddy Bear (3 Feet)",
+                category: "Kids Toys",
+                age: "3–5 Yrs",
+                price: 1199,
+                mrp: 1699,
+                badge: "Bestseller",
+                safety: "Hypoallergenic virgin microfiber filling, washable ultra-plush fur, child-safe stitched eyes.",
+                desc: "Huggable 3-feet cream-caramel teddy bear with a satin bow tie—an unforgettable birthday or Valentine surprise for kids & loved ones.",
+                image: "https://images.pexels.com/photos/207891/pexels-photo-207891.jpeg?auto=compress&cs=tinysrgb&w=800",
+                fallback: "https://placehold.co/600x420/136661/FBBF24?text=Giant+Plush+Teddy+Bear"
+            },
+            {
+                id: 3,
+                title: "Deluxe Newborn Baby Care & Cotton Gift Hamper (7-Pc Set)",
+                category: "Baby Care",
+                age: "0–2 Yrs",
+                price: 1499,
+                mrp: 2100,
+                badge: "100% Organic Cotton",
+                safety: "Dermatologically tested baby-safe fabrics, zero fluorescent dyes, soft muslin weave.",
+                desc: "Complete newborn welcome hamper with organic muslin swaddle, romper, mittens, booties, bib, rattle & keepsake gift box.",
+                image: "https://images.pexels.com/photos/3933275/pexels-photo-3933275.jpeg?auto=compress&cs=tinysrgb&w=800",
+                fallback: "https://placehold.co/600x420/0D4F4B/F59E0B?text=Newborn+Baby+Care+Hamper"
+            },
+            {
+                id: 4,
+                title: "Remote Control Off-Road Monster Stunt Car (4WD)",
+                category: "Kids Toys",
+                age: "6–10 Yrs",
+                price: 1299,
+                mrp: 1899,
+                badge: "Rechargeable",
+                safety: "Shock-absorbing ABS body, anti-skid rubber tires, USB rechargeable battery included.",
+                desc: "High-speed 4WD stunt crawler capable of 360° spins and all-terrain climbs with LED headlights and 2.4GHz remote controller.",
+                image: "https://images.pexels.com/photos/35619/capri-ford-oldtimer-automotive.jpg?auto=compress&cs=tinysrgb&w=800",
+                fallback: "https://placehold.co/600x420/136661/FBBF24?text=RC+Monster+Stunt+Car"
+            },
+            {
+                id: 5,
+                title: "Kids Birthday Return Gift Stationery & Sipper Combo (Pack of 10)",
+                category: "Birthday Return Gifts",
+                age: "6–10 Yrs",
+                price: 1450,
+                mrp: 1990,
+                badge: "Party Bulk Deal",
+                safety: "Food-grade BPA-free sipper bottle & non-toxic stationery packed in individual theme pouches.",
+                desc: "Ready-to-gift pack of 10 combos (₹145/pc) including cartoon sipper bottle, pencil box, pencils, eraser & custom birthday thank-you tag.",
+                image: "https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=800",
+                fallback: "https://placehold.co/600x420/0D4F4B/F59E0B?text=Birthday+Return+Gift+Combo"
+            },
+            {
+                id: 6,
+                title: "Interactive Musical Baby Walker & Activity Table",
+                category: "Baby Care",
+                age: "0–2 Yrs",
+                price: 2199,
+                mrp: 2999,
+                badge: "Early Learning",
+                safety: "Anti-tip wide wheel base with speed-control lock, rounded edges, BPA-free virgin plastic.",
+                desc: "2-in-1 sit-to-stand push walker that converts into a detachable musical activity table with piano keys, gears & shape sorter.",
+                image: "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=800",
+                fallback: "https://placehold.co/600x420/136661/FBBF24?text=Musical+Baby+Walker"
+            },
+            {
+                id: 7,
+                title: "Personalized LED Name & Photo Lamp for Kids Room",
+                category: "Personalized & Family Gifts",
+                age: "All Ages",
+                price: 799,
+                mrp: 1199,
+                badge: "Custom Name",
+                safety: "Low-voltage cool-touch warm LED base, shatterproof cast acrylic plaque.",
+                desc: "Custom-engraved night lamp featuring your child's name, birthday date & favorite photo—a soothing bedside keepsake.",
+                image: "https://images.pexels.com/photos/1036804/pexels-photo-1036804.jpeg?auto=compress&cs=tinysrgb&w=800",
+                fallback: "https://placehold.co/600x420/0D4F4B/F59E0B?text=Personalized+LED+Name+Lamp"
+            },
+            {
+                id: 8,
+                title: "120-Piece Magnetic Building Tiles & STEM Castle Kit",
+                category: "Kids Toys",
+                age: "6–10 Yrs",
+                price: 1599,
+                mrp: 2299,
+                badge: "STEM Approved",
+                safety: "Ultrasonic-welded food-grade ABS tiles with enclosed safe magnets, smooth bevels.",
+                desc: "Translucent rainbow magnetic tiles with castle windows, wheels & idea book to inspire 3D engineering creativity.",
+                image: "https://images.pexels.com/photos/3933025/pexels-photo-3933025.jpeg?auto=compress&cs=tinysrgb&w=800",
+                fallback: "https://placehold.co/600x420/136661/FBBF24?text=120-Pc+Magnetic+Tiles"
+            }
+        ];
+
+        // Sample Store Owner Live Enquiries
+        let ownerLeads = [
+            {
+                refId: "#RJK-2026-8841",
+                name: "Neha Agarwal",
+                phone: "98114 55210",
+                item: "Kids Birthday Return Gift Stationery & Sipper Combo (Pack of 10)",
+                qty: 2,
+                total: "₹2,900 (20 Return Gifts)",
+                occasion: "Birthday • Home Delivery",
+                note: "Need Jungle theme wrapping with 'Happy 5th Birthday Ayaan' tag",
+                time: "10 mins ago"
+            },
+            {
+                refId: "#RJK-2026-8839",
+                name: "Suresh Verma",
+                phone: "99712 83490",
+                item: "Deluxe Newborn Baby Care & Cotton Gift Hamper (7-Pc Set)",
+                qty: 1,
+                total: "₹1,548 (Premium Gift Box)",
+                occasion: "Newborn Welcome • Store Pickup",
+                note: "Will pick up today at 6 PM",
+                time: "45 mins ago"
+            }
+        ];
+
+        let activeCategory = "all";
+        let activeAge = "all";
+        let searchQuery = "";
+        let wishlistIds = [];
+
+        // Render Product Cards
+        function renderProducts() {
+            const grid = document.getElementById("products-grid");
+            const emptyState = document.getElementById("empty-catalogue");
+            const sortVal = document.getElementById("sort-select").value;
+
+            let filtered = catalogueProducts.filter(p => {
+                const matchCat = activeCategory === "all" || p.category === activeCategory;
+                const matchAge = activeAge === "all" || p.age === activeAge;
+                const q = searchQuery.toLowerCase();
+                const matchSearch = p.title.toLowerCase().includes(q) ||
+                                    p.category.toLowerCase().includes(q) ||
+                                    p.desc.toLowerCase().includes(q) ||
+                                    p.badge.toLowerCase().includes(q);
+                return matchCat && matchAge && matchSearch;
+            });
+
+            if (sortVal === "low-high") filtered.sort((a, b) => a.price - b.price);
+            else if (sortVal === "high-low") filtered.sort((a, b) => b.price - a.price);
+
+            if (filtered.length === 0) {
+                grid.innerHTML = "";
+                emptyState.classList.remove("hidden");
+                return;
+            }
+
+            emptyState.classList.add("hidden");
+            grid.innerHTML = filtered.map(item => {
+                const isSaved = wishlistIds.includes(item.id);
+                return `
+                <div class="bg-white rounded-3xl border border-tealBrand-900/10 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="relative h-52 overflow-hidden bg-tealBrand-950">
+                            <img src="${item.image}" onerror="this.src='${item.fallback}'" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            
+                            <!-- Top-Left Feature Badge -->
+                            <span class="absolute top-3 left-3 bg-tealBrand-950/90 backdrop-blur-sm border border-marigold-400/40 text-marigold-300 text-[11px] font-bold px-3 py-1 rounded-full">
+                                ${item.badge}
+                            </span>
+
+                            <!-- Top-Right Wishlist Heart -->
+                            <button onclick="toggleWishlist(${item.id})" aria-label="Save to Wishlist" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/95 hover:bg-white shadow-md flex items-center justify-center transition">
+                                <i class="fa-solid fa-heart ${isSaved ? 'text-tangerine-500' : 'text-slate-300 hover:text-tangerine-400'}"></i>
+                            </button>
+
+                            <!-- Bottom-Left Age Pill -->
+                            <span class="absolute bottom-3 left-3 bg-white/95 text-tealBrand-900 text-[10px] font-extrabold px-2.5 py-1 rounded-lg shadow">
+                                Age: ${item.age}
+                            </span>
+                        </div>
+
+                        <div class="p-5">
+                            <span class="text-[11px] font-bold uppercase tracking-wider text-tangerine-600">${item.category}</span>
+                            <h3 class="font-display font-bold text-tealBrand-900 text-base sm:text-lg mt-1 leading-snug">${item.title}</h3>
+                            <p class="text-slate-600 text-xs mt-2 leading-relaxed line-clamp-2">${item.desc}</p>
+                        </div>
+                    </div>
+
+                    <div class="px-5 pb-5 pt-3 border-t border-ivoryCream-200 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="flex items-baseline gap-2">
+                                    <span class="font-display text-xl font-bold text-tealBrand-900">₹${item.price.toLocaleString('en-IN')}</span>
+                                    <span class="text-xs text-slate-400 line-through">₹${item.mrp.toLocaleString('en-IN')}</span>
+                                </div>
+                            </div>
+                            <button onclick="openQuickView(${item.id})" class="text-xs font-bold text-tealBrand-900 hover:text-tangerine-600 underline transition">
+                                Quick View
+                            </button>
+                        </div>
+
+                        <button onclick="selectProductInBuilder(${item.id})" class="w-full py-2.5 px-4 rounded-xl bg-tealBrand-900 hover:bg-tangerine-500 text-marigold-300 hover:text-white text-xs font-bold transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span>Enquire / Order</span>
+                        </button>
+                    </div>
+                </div>
+                `;
+            }).join("");
+        }
+
+        // Category Tab Clicks
+        document.querySelectorAll(".cat-tab").forEach(tab => {
+            tab.addEventListener("click", () => {
+                document.querySelectorAll(".cat-tab").forEach(t => {
+                    t.classList.remove("bg-tealBrand-900", "text-marigold-300", "font-bold", "shadow-sm");
+                    t.classList.add("bg-ivoryCream-100", "text-slate-700", "font-semibold");
+                });
+                tab.classList.remove("bg-ivoryCream-100", "text-slate-700", "font-semibold");
+                tab.classList.add("bg-tealBrand-900", "text-marigold-300", "font-bold", "shadow-sm");
+
+                activeCategory = tab.getAttribute("data-cat");
+                renderProducts();
+            });
+        });
+
+        // Age Finder Pill Clicks
+        document.querySelectorAll(".age-pill").forEach(pill => {
+            pill.addEventListener("click", () => {
+                document.querySelectorAll(".age-pill").forEach(p => {
+                    p.classList.remove("bg-marigold-500", "text-tealBrand-950", "font-bold", "shadow-md");
+                    p.classList.add("bg-white/10", "text-white", "font-semibold");
+                });
+                pill.classList.remove("bg-white/10", "text-white", "font-semibold");
+                pill.classList.add("bg-marigold-500", "text-tealBrand-950", "font-bold", "shadow-md");
+
+                activeAge = pill.getAttribute("data-age");
+                updateAgeIndicatorUI();
+                renderProducts();
+                document.getElementById("catalogue").scrollIntoView({ behavior: "smooth" });
+            });
+        });
+
+        function updateAgeIndicatorUI() {
+            const indicator = document.getElementById("active-age-indicator");
+            if (activeAge === "all") {
+                indicator.classList.add("hidden");
+                indicator.classList.remove("inline-flex");
+            } else {
+                document.getElementById("active-age-text").textContent = activeAge;
+                indicator.classList.remove("hidden");
+                indicator.classList.add("inline-flex");
+            }
+        }
+
+        function resetAgeFilter() {
+            document.querySelector('.age-pill[data-age="all"]').click();
+        }
+
+        function jumpToCategory(categoryName) {
+            const btn = document.querySelector(`.cat-tab[data-cat="${categoryName}"]`);
+            if (btn) btn.click();
+            document.getElementById("catalogue").scrollIntoView({ behavior: "smooth" });
+        }
+
+        function focusCatalogueSearch() {
+            const input = document.getElementById("catalogue-search");
+            input.scrollIntoView({ behavior: "smooth", block: "center" });
+            setTimeout(() => input.focus(), 400);
+        }
+
+        document.getElementById("catalogue-search").addEventListener("input", (e) => {
+            searchQuery = e.target.value.trim();
+            renderProducts();
+        });
+
+        function resetAllFilters() {
+            activeCategory = "all";
+            activeAge = "all";
+            searchQuery = "";
+            document.getElementById("catalogue-search").value = "";
+            updateAgeIndicatorUI();
+            document.querySelectorAll(".age-pill").forEach(p => {
+                p.classList.remove("bg-marigold-500", "text-tealBrand-950", "font-bold", "shadow-md");
+                p.classList.add("bg-white/10", "text-white", "font-semibold");
+            });
+            document.querySelector('.age-pill[data-age="all"]').classList.add("bg-marigold-500", "text-tealBrand-950", "font-bold", "shadow-md");
+            document.querySelector('.cat-tab[data-cat="all"]').click();
+        }
+
+        // Quick View Modal
+        function openQuickView(id) {
+            const item = catalogueProducts.find(p => p.id === id);
+            if (!item) return;
+
+            document.getElementById("qv-img").src = item.image;
+            document.getElementById("qv-img").onerror = () => { document.getElementById("qv-img").src = item.fallback; };
+            document.getElementById("qv-cat").textContent = item.category;
+            document.getElementById("qv-age").textContent = "Recommended Age: " + item.age;
+            document.getElementById("qv-title").textContent = item.title;
+            document.getElementById("qv-desc").textContent = item.desc;
+            document.getElementById("qv-safety").textContent = item.safety;
+            document.getElementById("qv-price").textContent = "₹" + item.price.toLocaleString("en-IN");
+            document.getElementById("qv-mrp").textContent = "₹" + item.mrp.toLocaleString("en-IN");
+            document.getElementById("qv-order-btn").onclick = () => {
+                closeQuickView();
+                selectProductInBuilder(item.id);
+            };
+
+            const modal = document.getElementById("quickview-modal");
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+        }
+
+        function closeQuickView() {
+            const modal = document.getElementById("quickview-modal");
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        }
+
+        // Wishlist Logic
+        function toggleWishlist(id) {
+            if (wishlistIds.includes(id)) {
+                wishlistIds = wishlistIds.filter(i => i !== id);
+            } else {
+                wishlistIds.push(id);
+            }
+            document.getElementById("wishlist-badge").textContent = wishlistIds.length;
+            renderProducts();
+        }
+
+        function openWishlistDrawer() {
+            const container = document.getElementById("wishlist-items-list");
+            if (wishlistIds.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center py-8 bg-white rounded-2xl border border-tealBrand-900/10">
+                        <i class="fa-regular fa-heart text-3xl text-tangerine-400 mb-2"></i>
+                        <p class="text-sm font-bold text-tealBrand-900">Your wishlist is empty</p>
+                        <p class="text-xs text-slate-500 mt-1">Click the heart icon on any toy or gift to save it here.</p>
+                    </div>
+                `;
+            } else {
+                container.innerHTML = wishlistIds.map(id => {
+                    const item = catalogueProducts.find(p => p.id === id);
+                    return `
+                        <div class="flex items-center justify-between gap-3 p-3 rounded-2xl bg-white border border-tealBrand-900/10 shadow-sm">
+                            <div class="flex items-center gap-3">
+                                <img src="${item.image}" onerror="this.src='${item.fallback}'" alt="${item.title}" class="w-12 h-12 rounded-xl object-cover">
+                                <div>
+                                    <h4 class="font-bold text-xs text-tealBrand-900">${item.title}</h4>
+                                    <span class="text-xs font-extrabold text-tangerine-600">₹${item.price.toLocaleString('en-IN')}</span>
+                                </div>
+                            </div>
+                            <button onclick="closeWishlistDrawer(); selectProductInBuilder(${item.id});" class="px-3 py-2 rounded-xl bg-tealBrand-900 text-marigold-300 text-[11px] font-bold shrink-0">
+                                Order
+                            </button>
+                        </div>
+                    `;
+                }).join("");
+            }
+            const drawer = document.getElementById("wishlist-drawer");
+            drawer.classList.remove("hidden");
+            drawer.classList.add("flex");
+        }
+
+        function closeWishlistDrawer() {
+            const drawer = document.getElementById("wishlist-drawer");
+            drawer.classList.add("hidden");
+            drawer.classList.remove("flex");
+        }
+
+        // Order & Return-Gift Builder Logic
+        function populateBuilderDropdown() {
+            const select = document.getElementById("builder-product");
+            const productOptions = catalogueProducts.map(p => `
+                <option value="${p.id}" data-price="${p.price}" data-title="${p.title}">${p.title} — ₹${p.price.toLocaleString('en-IN')}</option>
+            `).join("");
+            const customOption = `<option value="custom" data-price="249" data-title="Custom Birthday Return Gift Hamper">Custom Birthday Return Gift Hamper — ₹249 / pc</option>`;
+            select.innerHTML = productOptions + customOption;
+        }
+
+        function selectProductInBuilder(id) {
+            const select = document.getElementById("builder-product");
+            select.value = id;
+            updateOrderEstimate();
+            document.getElementById("order-builder").scrollIntoView({ behavior: "smooth" });
+        }
+
+        function adjustBuilderQty(delta) {
+            const input = document.getElementById("builder-qty");
+            let val = parseInt(input.value) || 1;
+            val = Math.max(1, Math.min(500, val + delta));
+            input.value = val;
+            updateOrderEstimate();
+        }
+
+        function getOrderCalculation() {
+            const select = document.getElementById("builder-product");
+            const selectedOption = select.options[select.selectedIndex];
+            const itemTitle = selectedOption.getAttribute("data-title");
+            const unitPrice = parseInt(selectedOption.getAttribute("data-price")) || 699;
+            const qty = Math.max(1, parseInt(document.getElementById("builder-qty").value) || 1);
+
+            const wrapRadio = document.querySelector('input[name="gift-wrap"]:checked');
+            const wrapPerPc = wrapRadio ? parseInt(wrapRadio.value) : 0;
+            const wrapLabel = wrapPerPc > 0 ? "Premium Theme Gift Box (+₹49/pc)" : "Free Standard Wrap";
+
+            const itemSubtotal = unitPrice * qty;
+            const wrapTotal = wrapPerPc * qty;
+            const grossTotal = itemSubtotal + wrapTotal;
+
+            // Automatic 12% Bulk Party Discount when quantity >= 10
+            const isBulk = qty >= 10;
+            const discountAmt = isBulk ? Math.round(grossTotal * 0.12) : 0;
+            const finalTotal = grossTotal - discountAmt;
+
+            return {
+                itemTitle,
+                unitPrice,
+                qty,
+                wrapPerPc,
+                wrapLabel,
+                itemSubtotal,
+                wrapTotal,
+                isBulk,
+                discountAmt,
+                finalTotal
+            };
+        }
+
+        function updateOrderEstimate() {
+            const calc = getOrderCalculation();
+
+            document.getElementById("est-qty-label").textContent = calc.qty;
+            document.getElementById("est-subtotal").textContent = "₹" + calc.itemSubtotal.toLocaleString("en-IN");
+            document.getElementById("est-wrap-cost").textContent = calc.wrapTotal > 0
+                ? "+ ₹" + calc.wrapTotal.toLocaleString("en-IN")
+                : "FREE (₹0)";
+            document.getElementById("est-grand-total").textContent = "₹" + calc.finalTotal.toLocaleString("en-IN");
+
+            const discountRow = document.getElementById("est-discount-row");
+            const bulkPill = document.getElementById("bulk-status-pill");
+
+            if (calc.isBulk) {
+                discountRow.classList.remove("hidden");
+                discountRow.classList.add("flex");
+                document.getElementById("est-discount-val").textContent = "- ₹" + calc.discountAmt.toLocaleString("en-IN");
+                bulkPill.innerHTML = `<i class="fa-solid fa-circle-check mr-1"></i> 12% Bulk Party Discount Unlocked!`;
+            } else {
+                discountRow.classList.add("hidden");
+                discountRow.classList.remove("flex");
+                bulkPill.textContent = "10+ pcs = 12% Bulk Party Discount!";
+            }
+        }
+
+        // Send Order Enquiry via WhatsApp (Cleanly Formatted Hindi/English Summary)
+        function sendOrderOnWhatsApp() {
+            const calc = getOrderCalculation();
+            const custName = document.getElementById("cust-name").value.trim() || "Parent / Gift Buyer";
+            const custPhone = document.getElementById("cust-phone").value.trim() || "Not specified";
+            const childName = document.getElementById("builder-child-name").value.trim() || "Standard Gift Tag";
+            const deliveryMode = document.getElementById("cust-delivery").value;
+            const occasion = document.getElementById("cust-occasion").value;
+            const extraNote = document.getElementById("cust-address-note").value.trim() || "None";
+
+            const discountLine = calc.isBulk ? `• *Bulk Discount:* 12% OFF (-₹${calc.discountAmt.toLocaleString("en-IN")})\n` : "";
+
+            const whatsappMessage =
+`Namaste Raj Gift & Kids Collection! 🎁🧸
+Mujhe ek gift/toy order enquiry karni hai:
+
+• *Customer Name:* ${custName}
+• *Phone Number:* ${custPhone}
+• *Selected Item:* ${calc.itemTitle}
+• *Quantity:* ${calc.qty} pcs
+• *Child / Tag Name:* ${childName}
+• *Gift Wrapping:* ${calc.wrapLabel}
+• *Occasion:* ${occasion}
+• *Delivery / Pickup:* ${deliveryMode}
+${discountLine}• *Estimated Total:* ₹${calc.finalTotal.toLocaleString("en-IN")}
+• *Note:* ${extraNote}
+
+Kripya availability aur confirmation share karein!`;
+
+            window.open(`https://wa.me/${PITCH_WHATSAPP}?text=${encodeURIComponent(whatsappMessage)}`, "_blank");
+        }
+
+        // Save Online Enquiry to Owner Preview Drawer
+        function saveOnlineEnquiry(e) {
+            e.preventDefault();
+            const calc = getOrderCalculation();
+            const custName = document.getElementById("cust-name").value.trim() || "Valued Customer";
+            const custPhone = document.getElementById("cust-phone").value.trim() || "Not provided";
+            const childName = document.getElementById("builder-child-name").value.trim();
+            const deliveryMode = document.getElementById("cust-delivery").value;
+            const occasion = document.getElementById("cust-occasion").value;
+            const extraNote = document.getElementById("cust-address-note").value.trim();
+
+            const refId = "#RJK-2026-" + Math.floor(1000 + Math.random() * 9000);
+            const totalText = calc.isBulk
+                ? `₹${calc.finalTotal.toLocaleString("en-IN")} (12% Bulk Off)`
+                : `₹${calc.finalTotal.toLocaleString("en-IN")}`;
+
+            const fullNote = [
+                childName ? `Tag/Name: ${childName}` : "",
+                calc.wrapLabel,
+                extraNote
+            ].filter(Boolean).join(" • ");
+
+            ownerLeads.unshift({
+                refId,
+                name: custName,
+                phone: custPhone,
+                item: calc.itemTitle,
+                qty: calc.qty,
+                total: totalText,
+                occasion: `${occasion} • ${deliveryMode}`,
+                note: fullNote,
+                time: "Just now"
+            });
+
+            renderOwnerLeads();
+
+            // Populate Confirmation Modal
+            document.getElementById("saved-ref-id").textContent = refId;
+            document.getElementById("saved-cust-name").textContent = custName;
+            document.getElementById("saved-item").textContent = calc.itemTitle;
+            document.getElementById("saved-qty").textContent = calc.qty + (calc.qty === 1 ? " pc" : " pcs");
+            document.getElementById("saved-total").textContent = totalText;
+
+            const modal = document.getElementById("saved-modal");
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+        }
+
+        function closeSavedModal() {
+            const modal = document.getElementById("saved-modal");
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        }
+
+        // Render Store Owner Live Enquiries Drawer
+        function renderOwnerLeads() {
+            document.getElementById("leads-badge").textContent = ownerLeads.length;
+            const container = document.getElementById("leads-list-container");
+            container.innerHTML = ownerLeads.map(lead => `
+                <div class="bg-white p-4 rounded-2xl border border-tealBrand-900/15 shadow-sm space-y-2">
+                    <div class="flex items-center justify-between text-[11px]">
+                        <span class="font-bold text-tangerine-600">${lead.refId}</span>
+                        <span class="text-slate-400 font-medium">${lead.time}</span>
+                    </div>
+                    <h4 class="font-bold text-sm text-tealBrand-900">${lead.name} &bull; <span class="text-slate-600 font-semibold">${lead.phone}</span></h4>
+                    <p class="text-xs font-bold text-slate-800">${lead.item} (${lead.qty} pcs)</p>
+                    <p class="text-[11px] font-semibold text-tealBrand-800">${lead.occasion}</p>
+                    <p class="text-[11px] text-slate-500 italic">"${lead.note}"</p>
+                    <div class="pt-2 border-t border-ivoryCream-200 flex items-center justify-between">
+                        <span class="text-xs font-extrabold text-emerald-700">${lead.total}</span>
+                        <a href="https://wa.me/91${lead.phone.replace(/\D/g, '')}?text=${encodeURIComponent('Namaste ' + lead.name + ' ji! Thank you for your enquiry at Raj Gift & Kids Collection for ' + lead.item + '.')}" target="_blank" rel="noopener" class="text-[11px] font-bold text-emerald-600 hover:underline flex items-center gap-1">
+                            <i class="fa-brands fa-whatsapp"></i> Reply on WhatsApp
+                        </a>
+                    </div>
+                </div>
+            `).join("");
+        }
+
+        function openLeadsDrawer() {
+            renderOwnerLeads();
+            const drawer = document.getElementById("leads-drawer");
+            drawer.classList.remove("hidden");
+            drawer.classList.add("flex");
+        }
+
+        function closeLeadsDrawer() {
+            const drawer = document.getElementById("leads-drawer");
+            drawer.classList.add("hidden");
+            drawer.classList.remove("flex");
+        }
+
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById("mobile-menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        mobileBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+        document.querySelectorAll(".mobile-link").forEach(link => {
+            link.addEventListener("click", () => mobileMenu.classList.add("hidden"));
+        });
+
+        // Initialize App on Load
+        window.addEventListener("DOMContentLoaded", () => {
+            renderProducts();
+            populateBuilderDropdown();
+            updateOrderEstimate();
+            renderOwnerLeads();
+        });
+    </script>
+</body>
+</html>
